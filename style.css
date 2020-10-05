@@ -1,8 +1,53 @@
+html {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  opacity: 0.9;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
 #nav-bar {
+  display: flex;
+  width: auto;
+  height: 60px;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: stretch;
+  font-size: 13px;
+}
+
+#gmail {
+  order: 1;
+  flex-basis: auto;
+  padding: 8px;
+}
+#images {
+  order: 2;
+  flex-basis: auto;
+  padding: 8px;
+}
+#google-app-logo {
+  order: 3;
+  opacity: 0.7;
+  flex-basis: auto;
+  padding: 4px;
+  padding-right: 8px;
+}
+
+#google-app-logo:hover {
+  opacity: 1;
 }
 
 #main {
 }
-
 #footer {
 }
