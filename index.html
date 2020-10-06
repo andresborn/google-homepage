@@ -14,7 +14,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" media="all" />
   </head>
   <body>
-    <div id="nav-bar">
+    <div class="nav-bar">
       <a href="#" id="gmail">Gmail</a>
       <a href="#" id="images">Images</a>
       <a href="#" id="google-app-logo">
@@ -26,19 +26,22 @@
           width="25px"
       /></a>
     </div>
-    <div id="main">
+    <div class="main">
       <img
         src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         alt="Google Logo"
         id="logo"
       />
       <input type="text" id="search" />
-      <button type="button" id="google-search">Google Search</button>
-      <button type="button" id="lucky">I'm Feeling Lucky</button>
-      <p>Google offered in: <a href="#">Español (Latinoamérica)</a></p>
+      <div id="buttons">
+        <button type="button" id="google-search">Google Search</button>
+        <button type="button" id="lucky">I'm Feeling Lucky</button>
+      </div>
+      <p id="offered-in">
+        Google offered in: <a id="latinoam" href="#">Español (Latinoamérica)</a>
+      </p>
     </div>
-    <div id="footer">
-      <p>Costa Rica</p>
+    <div class="footer">
       <a href="#" id="advertising">Advertising</a>
       <a href="#" id="business">Business</a>
       <a href="#" id="about">About</a>
